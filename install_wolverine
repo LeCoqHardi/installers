@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# this script needs sudo to run
+
+# this part clears the screen and pulls the repo
+# and install it to /etc
+clear
+git clone https://www.github.com/LeCoqHardi/WolverinePython
+sudo mv WolverinePython /etc
+
+# this create the executable file
+# and put it to /bin/home/theo/Documents/Github/WolverinePython
+
+touch wolverine
+echo "#!/bin/bash" >> wolverine
+echo "" >> wolverine
+echo "exec /etc/WolverinePython/wolverine" >> wolverine
+chmod +x wolverine
