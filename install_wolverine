@@ -7,6 +7,8 @@
 clear
 git clone https://www.github.com/LeCoqHardi/WolverinePython
 sudo mv WolverinePython /etc
+sudo chmod +x /etc/WolverinePython/wolverine
+sudo chmod +x /etc/WolverinePython/Scripts/*
 
 # this create the executable file
 # and put it to /bin/home/theo/Documents/Github/WolverinePython
@@ -16,3 +18,4 @@ echo "#!/bin/bash" >> wolverine
 echo "" >> wolverine
 echo "exec /etc/WolverinePython/wolverine" >> wolverine
 chmod +x wolverine
+sudo mv wolverine /bin
