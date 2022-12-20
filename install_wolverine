@@ -5,7 +5,7 @@
 # this part clears the screen and pulls the repo
 # and install it to /etc
 clear
-git clone https://www.github.com/LeCoqHardi/WolverinePython
+git clone https://github.com/LeCoqHardi/WolverinePython.git
 sudo mv WolverinePython /etc
 sudo chmod +x /etc/WolverinePython/wolverine
 sudo chmod +x /etc/WolverinePython/Scripts/*
