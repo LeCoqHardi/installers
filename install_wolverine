@@ -6,9 +6,9 @@
 # and install it to /etc
 clear
 git clone https://github.com/LeCoqHardi/WolverinePython.git
-sudo mv WolverinePython /etc
 sudo chmod +x /etc/WolverinePython/wolverine
 sudo chmod +x /etc/WolverinePython/Scripts/*
+sudo mv WolverinePython /etc
 
 # this create the executable file
 # and put it to /bin/home/theo/Documents/Github/WolverinePython
